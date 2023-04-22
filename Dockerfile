@@ -2,7 +2,7 @@ FROM node
 
 WORKDIR /chatsocket
 
-COPY packages.json .
+COPY package.json .
 
 RUN npm install --quiet
 
